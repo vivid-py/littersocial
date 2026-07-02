@@ -1,0 +1,32 @@
+{
+  "name": "littersocial",
+  "version": "1.0.0",
+  "description": "Litter - social media",
+  "homepage": "https://github.com/vivid-py/littersocial#readme",
+  "bugs": {
+    "url": "https://github.com/vivid-py/littersocial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivid-py/littersocial.git"
+  },
+  "license": "ISC",
+  "author": "vivid",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite & npx @tailwindcss/cli -i ./input.css -o ./style.css --watch & nodemon server.js"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.2",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "axios": "^1.18.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "postcss": "^8.5.16",
+    "tailwindcss": "^4.3.2",
+    "vite": "^8.1.0",
+    "vue": "^3.5.39",
+    "vue-router": "^5.1.0"
+  }
+}
